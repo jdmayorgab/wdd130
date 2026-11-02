@@ -21,7 +21,7 @@ img {
 }
 
 p {
-    padding: 10 px;
+    padding: 0;
 }
 
 main {
@@ -31,7 +31,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 2px solid rdb(0 0 0 / 0.2);
+    border: 2px solid rgb(1 1 1 / 1.2);
     padding: 1rem;
     background-color: aliceblue;
     color: black;
@@ -46,6 +46,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 2px solid rgb(1 1 1/ 1.2);
+    padding: 0;
+    box-shadow: #000;
 }
 
 p {
