@@ -48,7 +48,7 @@ main img {
     height: auto;
     border: 2px solid rgb(1 1 1/ 0.2);
     padding: 0;
-    box-shadow: 1px;
+    box-shadow: 2px 4px;
 }
 
 p {
