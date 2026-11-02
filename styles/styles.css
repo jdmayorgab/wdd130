@@ -31,7 +31,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 2px solid rgb(1 1 1 / 1.2);
+    border: 2px solid rgb(1 1 1 / 0.2);
     padding: 1rem;
     background-color: aliceblue;
     color: black;
@@ -46,9 +46,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 2px solid rgb(1 1 1/ 1.2);
+    border: 2px solid rgb(1 1 1/ 0.2);
     padding: 0;
-    box-shadow: #000;
+    box-shadow: 1px;
 }
 
 p {
