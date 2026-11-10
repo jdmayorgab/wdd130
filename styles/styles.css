@@ -1,16 +1,21 @@
+:root {
+    --heading-color: darkblue;
+    --padding: 20px
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-color);
     padding: 10px;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--padding);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-color);
 }
 
 img {
