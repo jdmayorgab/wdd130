@@ -1,12 +1,8 @@
 :root {
     --primary-color: rgb(191, 80, 80);
     /* red clarito */
-    --secondary-color: rgb(19, 113, 19);
-    /* green oscuro */
     --accent1-color: rgb(44, 44, 59);
     /* blue clarito */
-    --accent2-color: rgb(239, 239, 142);
-    /* yellow clarito */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -67,7 +63,7 @@ h1 {
     color: rgb(160, 160, 165);
 }
 
-article {
+.hero article {
     position: absolute;
     top: auto;
     width: 100%;
