@@ -14,8 +14,8 @@ nav ul {
     max-width: 900px;
     margin: 0 auto;
     padding: 0;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: end;
 }
 
 nav a {
