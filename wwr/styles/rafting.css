@@ -65,14 +65,18 @@ h1 {
 
 .hero article {
     position: absolute;
-    top: auto;
-    width: 100%;
-    opacity: 0.8;
+    bottom: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    background-color: white;
+    padding: 20px;
+    opacity: 0.9;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+    height: auto;
 }
 
 header {
@@ -133,15 +137,12 @@ footer {
     max-width: 100%;
     height: auto;
     display: block;
+    grid-column: 2;
+    grid-row: 2;
 }
 
 .history p:first-of-type {
     grid-column: 1;
-    grid-row: 2;
-}
-
-.history img {
-    grid-column: 2;
     grid-row: 2;
 }
 
